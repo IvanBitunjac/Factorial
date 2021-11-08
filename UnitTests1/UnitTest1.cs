@@ -1,4 +1,4 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
 namespace Factorial.UnitTests
@@ -8,7 +8,7 @@ namespace Factorial.UnitTests
     {
         [TestMethod]
         public void FactorialReturns1ForArgument0()
-        {
+        {   
             var result = Math.Factorial(0);
             Assert.AreEqual(1, result);
         }
