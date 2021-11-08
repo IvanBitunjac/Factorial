@@ -26,5 +26,12 @@ namespace Factorial.UnitTests
             var result = Math.Factorial(2);
             Assert.AreEqual(2, result);
         }
+
+        [TestMethod]
+        public void FactorialReturns24ForArgument4()
+        {
+            var result = Math.Factorial(4);
+            Assert.AreEqual(24, result);
+        }
     }
 }

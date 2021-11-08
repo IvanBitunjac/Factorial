@@ -10,7 +10,13 @@ namespace Factorial
     {
         public static long Factorial(int number)
         {
-            return 0;
+            long result = 1;
+            if (number == 0) return 1;
+            for (int i = 2; i <= number; ++i)
+            {
+                result *= i;
+            }
+            return result;
         }
     }
 }
